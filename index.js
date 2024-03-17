@@ -1,13 +1,13 @@
 
-function receivesAFunction(callback) {
+const receivesAFunction = (callback) => {
     callback();
 }
-function returnsANamedFunction() {
+const returnsANamedFunction = () => {
     return returnsANamedFunction
 }
 
 
-let returnsAnAnonymousFunction = function() {
+const returnsAnAnonymousFunction = function() {
     return function() {
     }
 } 
